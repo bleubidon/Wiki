@@ -1,0 +1,7 @@
+**.ini
+**/.*.swp
+**/.vimsession
+**/.idea
+**/.vscode
+**/__pycache__
+**/build-*
