@@ -1,6 +1,6 @@
 # Tracking d'objet avec OpenCV
 
-> Ce document se réfère à ce [programme d'exemple](https://github.com/AssociationIsepRobotique/Sandbox/blob/master/OpenCV/object_tracking/object_tracking.py).
+> Ce document se réfère à ce [programme d'exemple](../OpenCV_code/object_tracking/object_tracking.py).
 
 Le tracking d'un objet consiste à suivre son évolution spatiale dans un flux vidéo au cours du temps.
 
