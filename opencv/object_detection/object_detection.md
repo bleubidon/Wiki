@@ -1,6 +1,6 @@
 # Détection et repérage d'objets avec OpenCV
 
-> Ce document se réfère à ce [programme d'exemple](../OpenCV_code/object_detection/object_detection.py).
+> Ce document se réfère à ce [programme d'exemple](../../OpenCV_code/object_detection/object_detection.py).
 
 L'objectif est de détecter des formes sur une image puis de les repérer dans le plan, i.e. de déterminer leurs coordonnées dans un repère choisi.
 
@@ -31,7 +31,7 @@ La fonction [findContours](https://docs.opencv.org/2.4/modules/imgproc/doc/struc
 
 Le nombre de contours détectés par cette fonction est souvent plus grand que ce à quoi on s'attend car des contours indésirables sont présents dans la liste. On peut alors filtrer cette-dernière pour supprimer les contours accidentels ainsi que les contours dont le rayon est inférieur à un seuil choisi.
 
-> Voir le [programme d'exemple](../OpenCV_code/object_detection/object_detection.py#L87) pour le filtrage des contours.
+> Voir le [programme d'exemple](../../OpenCV_code/object_detection/object_detection.py#L87) pour le filtrage des contours.
 
 <p align=center>
     <img src="contours.jpg"

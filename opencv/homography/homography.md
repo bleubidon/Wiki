@@ -1,6 +1,6 @@
 # Homographie et transformation de perspective avec OpenCV
 
-> Ce document se réfère à ce [programme d'exemple](../OpenCV_code/homography/homography.py).
+> Ce document se réfère à ce [programme d'exemple](../../OpenCV_code/homography/homography.py).
 
 Une [homographie](https://en.wikipedia.org/wiki/Homography) est une transformation géométrique d'un plan vers un plan qui peut se représenter par une matrice. Concrètement, le procédé consiste à faire correspondre un ensemble de points "source" d'une image avec un ensemble de points "destination" de même taille, puis de faire une interpolation pour calculer une matrice carrée de taille 3 qui décrit entièrement la transformation. On peut alors appliquer l'homographie à une image et récupérer une image déformée de sorte à ce que les points source se retrouvent aux coordonnées des points destination correspondants, et les autres points soient répartis selon la même logique.
 
